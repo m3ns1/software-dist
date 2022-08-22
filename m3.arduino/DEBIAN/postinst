@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+
+wget -O /tmp/arduino.tar.xz -- https://downloads.arduino.cc/arduino-1.8.19-linux64.tar.xz
+
+sudo mkdir /opt/arduino
+sudo tar -xvf /tmp/arduino.tar.xz --strip-components=1 -C /opt/arduino
+sudo rm -f /tmp/arduino.tar.xz
+
+if test -f "/opt/arduino/install.sh"; then
+  sudo /opt/arduino/install.sh
+else
+  echo Installations-Script existiert nicht
+  exit -1
+fi
+

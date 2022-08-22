@@ -1,0 +1,6 @@
+Package: m3.GBE-Metatrader-4
+Version: 2022.2
+Architecture: amd64 
+Maintainer: m3ns1
+Description: Metatrader 4 für GBE Brokers
+Depends: wine-stable

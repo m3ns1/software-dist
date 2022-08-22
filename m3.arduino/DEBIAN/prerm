@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if test -f "/opt/arduino/uninstall.sh"; then
+  /opt/arduino/uninstall.sh
+fi
+
+sudo rm -rf /opt/arduino

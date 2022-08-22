@@ -1,0 +1,6 @@
+Package: m3.common
+Version: 1.0.0
+Architecture: amd64
+Maintainer: m3ns1
+Description: Allgemeine Tools
+Depends: alacarte, curl, openjdk-17-jdk, openjdk-17-jre, git-all, net-tools, fuse, tree

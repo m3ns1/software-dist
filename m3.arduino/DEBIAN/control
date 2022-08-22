@@ -1,0 +1,6 @@
+Package: m3.Arduino
+Version: 1.8.1
+Architecture: amd64 
+Maintainer: m3ns1
+Description: Arduino IDE
+

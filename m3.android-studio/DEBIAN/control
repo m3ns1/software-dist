@@ -1,0 +1,5 @@
+Package: m3.android-studio
+Version: 2021.2.1.16
+Architecture: amd64 
+Maintainer: m3ns1
+Description: Android Studio Development Environment

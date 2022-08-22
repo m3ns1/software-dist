@@ -1,0 +1,7 @@
+#!/bin/bash
+
+wine uninstaller
+rm -rf ~/.local/share/applications/wine/Programs/GBE\ MetaTrader\ 4*
+rm -f ~/Desktop/GBE\ MetaTrader\ 4*
+rm -f ~/Desktop/MetaEditor\ 4*
+

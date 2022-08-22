@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Ultimaker Cura
+Icon=/opt/cura/cura-icon.png
+Exec="/opt/cura/Ultimaker-Cura-5.1.0-linux-modern.AppImage"
+Comment=Ultimaker Cura 3D Printing Tool
+Categories=Development;IDE;
+Terminal=false

@@ -1,0 +1,15 @@
+m3.common
+m3.dev
+m3.intellij
+m3.android-studio
+m3.arduino
+m3.chrome
+m3.ultimakercura
+m3.docker
+m3.dropbox
+m3.keeweb
+m3.thonny
+m3.tradingview
+m3.virtualbox
+m3.wine
+m3.gbe-metatrader-4

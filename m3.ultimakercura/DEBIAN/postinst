@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ ! -d "/opt/cura" ]
+then
+  sudo mkdir /opt/cura
+fi
+
+wget -O /opt/cura/Ultimaker-Cura-5.1.0-linux-modern.AppImage -- "https://github.com/Ultimaker/Cura/releases/download/5.1.0/Ultimaker-Cura-5.1.0-linux-modern.AppImage"
+
+sudo chmod +x /opt/cura/Ultimaker-Cura-5.1.0-linux-modern.AppImage
+

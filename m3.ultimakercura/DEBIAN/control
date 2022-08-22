@@ -1,0 +1,6 @@
+Package: m3.UltimakerCura
+Version: 5.1.0
+Architecture: amd64 
+Maintainer: m3ns1
+Description: Ultimaker Cura 3D Printing Tool
+Depends: fuse, libfuse2
