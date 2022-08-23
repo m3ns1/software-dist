@@ -1,7 +1,7 @@
 #!/bin/bash
 
 url="https://download.mql5.com/cdn/web/gbe.brokers.ltd/mt4/gbebrokers4setup.exe"
-wget ${url}
-wine ./gbebrokers4setup.exe
+wget -O /tmp/gbebrokers4setup.exe ${url}
+wine /tmp/gbebrokers4setup.exe
 
-rm gbebrokers4setup.exe
+#rm /tmp/gbebrokers4setup.exe

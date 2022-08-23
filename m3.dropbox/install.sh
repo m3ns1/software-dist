@@ -1,5 +1,5 @@
 #!/bin/bash
 
-sudo apt install --fix-broken ./dropbox.deb
+sudo apt install -y --fix-broken ./dropbox.deb
 
 

@@ -4,7 +4,7 @@ sudo dpkg --add-architecture i386
 sudo apt update
 
 wine5() {
-  sudo apt -y install wine64 wine32
+  sudo apt -y install wine64 wine32 winbind
 }
 
 wine6() {
@@ -13,6 +13,7 @@ wine6() {
   sudo apt -y install --install-recommends wine-stable
 }
 
-wine6
+wine5
+
 wine --version
 winecfg
