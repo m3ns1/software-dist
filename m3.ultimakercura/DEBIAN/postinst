@@ -5,7 +5,12 @@ then
   sudo mkdir /opt/cura
 fi
 
-wget -O /opt/cura/Ultimaker-Cura-5.1.0-linux-modern.AppImage -- "https://github.com/Ultimaker/Cura/releases/download/5.1.0/Ultimaker-Cura-5.1.0-linux-modern.AppImage"
+wget -O /tmp/cura-5.2.0-linux.zip -- "https://github.com/Ultimaker/Cura/releases/download/5.2.0/Ultimaker-Cura-5.2.0-linux.zip"
 
-sudo chmod +x /opt/cura/Ultimaker-Cura-5.1.0-linux-modern.AppImage
+unzip /tmp/cura-5.2.0-linux.zip -d /tmp/cura-5.2.0-linux
+mv /tmp/cura-5.2.0-linux/*AppImage /opt/cura/cura-5.2.0-linux.AppImage
 
+sudo chmod +x /opt/cura/cura-5.2.0-linux.AppImage
+
+rm -f /tmp/cura-5.2.0-linux.zip
+rm -rf /tmp/cura-5.2.0-linux

@@ -18,3 +18,5 @@ software
 * net-tools
 * maven
 * tree
+* npm
+* angular cli (ng commands)
